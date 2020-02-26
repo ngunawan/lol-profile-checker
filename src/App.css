@@ -7,6 +7,20 @@
   pointer-events: none;
 }
 
+#submitBtn {
+  background:#03B2FF;
+  color: #fff;
+  font-weight: 700;
+  /* text-transform: uppercase; */
+  border: none;
+  font-size: 18px;
+  padding: 10px 18px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,7 +28,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(83, 131, 232);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
